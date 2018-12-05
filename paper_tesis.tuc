@@ -106,16 +106,16 @@ utilitydata.structures.counters.collected={
   { 0, 0 },
  },
  ["realpage"]={
-  { 1 },
+  { 2 },
  },
  ["subpage"]={
-  { 1 },
+  { 2 },
  },
  ["table"]={
   { 0, 0 },
  },
  ["userpage"]={
-  { 1 },
+  { 2 },
  },
 }
 
@@ -165,6 +165,76 @@ utilitydata.structures.lists.collected={
    ["title"]="Introduction",
   },
  },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=4,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Materials and methods",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=5,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Study area",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=6,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Results and discuss",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Conclusions",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=8,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="References",
+  },
+ },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -174,8 +244,15 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=7,
-  ["prefixdata"]=8,
+  ["numberdata"]=10,
+  ["prefixdata"]=11,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=10,
+  ["prefixdata"]=11,
   ["state"]="start",
  },
 }
@@ -274,6 +351,24 @@ utilitydata.job.packed={
    ["hidenumber"]=true,
    ["language"]="en",
    ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["level"]=4,
+   ["name"]="subsubject",
+   ["nolist"]=true,
+  },
+  { 0, 0, 0, 0 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="en",
+   ["numbers"]=8,
    ["separatorset"]="default",
    ["set"]="all",
   },
