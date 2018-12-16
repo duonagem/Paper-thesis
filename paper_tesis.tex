@@ -1,3 +1,24 @@
+%\usemodule[ntb-to-xtb]
+\showframe
+
+\setupbodyfont[termes, 12pt]
+
+\setuppagenumbering[
+	state=start,
+	location={lower,middle}
+	]
+
+\setuplayout[
+	backspace=2.5cm,
+	margin=1.5cm,
+	marginedge=0.5cm,
+	header=1cm,
+	footer=1cm,
+	width=16cm
+	]
+
+\setupcolumns[n=2]
+
 \starttext
 \title{Article}
 
@@ -28,14 +49,55 @@ The area covers a surface of 68.3 Km\high{2}. Its altitude varies from 2490 m to
 Four land use classes were defined. Specifically: agricultural, forestry, urban and moorland. 
 
 \subsubject{Landsat imagery}
-Three Landsat images were used. The details are described in table X%TABLE X.
+Three Landsat images were used. The details are described in \in{Table}[t1].
 \par
 
-Atmospheric and topographic correction were made for allowing comparison between images. 
+
+\setupcaption[table][location=top, width=\textwidth, align=middle]
+\setupTABLE[r][each][align=middle, frame=off] 
+\setupTABLE[r][first][style=\bf, topframe=on, bottomframe=on]
+\setupTABLE[r][last][bottomframe=on]
+
+\placetable[][t1]{Detail of satellital imagery}
+{\bTABLE
+\bTR \bTD Image date \eTD \bTD Sensor \eTD \bTD Resolution \eTD \eTR
+\bTR \bTD 2004, dec 29 \eTD \bTD ETM+ \eTD \bTD 30 m \eTD \eTR
+\bTR \bTD 2016, nov 20 \eTD \bTD OLI \eTD \bTD 30M \eTD \eTR
+\eTABLE}
+
+
+Atmospheric and topographic correction were made for allowing comparison between images.
+
 
 \subject{Results and discuss}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%RESULTS AND DISCUSS%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\setupcaption[table][location=top, width=\textwidth, align=middle]
+\setupTABLE[r][each][align=middle, frame=off]
+\setupTABLE[r][1][style=\bf, bottomframe=on]
+\setupTABLE[r][2][style=\bf, bottomframe=on, align={middle,lohi}]
+\setupTABLE[c][1][style=\bf]
+\setupTABLE[c][2][style=\bf]
+\setupTABLE[r][8][bottomframe=on]
 
+\placetable[][t1]{Transition matrix for study period}
+{\bTABLE
+%1st ROW
+\bTR \bTD[nc=2] \eTD \bTD[nc=4,align={middle,lohi}] 2017 \eTD \bTD \eTD \bTD \eTD \eTR
+%2nd ROW
+\bTR \bTD  \eTD \bTD \eTD \bTD Agricultural \eTD \bTD Forestry \eTD \bTD Urban \eTD \bTD  Moorland \eTD \bTD Total\\2005 \eTD \bTD Loss \eTD \eTR
+%3rd ROW
+\bTR \bTD[nr=4,align={middle,lohi},bottomframe=on] 2005 \eTD \bTD Agricultural \eTD \bTD[style=\bf] 3738,5 \eTD \bTD 197,4 \eTD \bTD 143,6 \eTD \bTD 2,6 \eTD \bTD 4082,2 \eTD \bTD 343,6 \eTD \eTR
+%4th ROW
+\bTR \bTD Forestry \eTD \bTD 564,2 \eTD \bTD[style=\bf] 1026,1 \eTD \bTD 20,2 \eTD \bTD 6,7 \eTD \bTD 1617,3 \eTD \bTD 591.1 \eTD \eTR
+%5th ROW
+\bTR \bTD Urban \eTD \bTD 28,6 \eTD \bTD 0,4 \eTD \bTD[style=\bf] 664,5 \eTD \bTD 0,0 \eTD \bTD 693,5 \eTD \bTD 29,0 \eTD \eTR
+%6th ROW
+\bTR[bottomframe=on] \bTD Moorland \eTD \bTD 166,2 \eTD \bTD 67,7 \eTD \bTD 0,0 \eTD \bTD[style=\bf] 203,8 \eTD \bTD 437,7 \eTD \bTD 233.8 \eTD \eTR
+%7th ROW
+\bTR \bTD[nr=2,bottomframe=on] \eTD \bTD Total 2017 \eTD \bTD 4497,5 \eTD \bTD 1291,7 \eTD \bTD 828,3 \eTD \bTD 213,1 \eTD \bTD[style=\bf] 6830,6 \eTD \bTD \eTD \eTR
+%8th ROW
+\bTR \bTD Gain \eTD \bTD 759,0 \eTD \bTD 265,5 \eTD \bTD 163,8 \eTD \bTD 9,3 \eTD \bTD \eTD \bTD \eTD \eTR
+\eTABLE}
 
 
 \subject{Conclusions}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CONCLUSIONS%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -4,7 +4,7 @@ utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
  ["file"]="paper_tesis",
  ["format"]="cont-en",
- ["stamp"]="2018.09.26 14:26",
+ ["stamp"]="2018.12.01 13:20",
  ["version"]=1.31,
 }
 
@@ -54,6 +54,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
+ ["float"]={ 2, 2 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -112,7 +113,7 @@ utilitydata.structures.counters.collected={
   { 2 },
  },
  ["table"]={
-  { 0, 0 },
+  { 0, 2 },
  },
  ["userpage"]={
   { 2 },
@@ -171,7 +172,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=4,
-   ["realpage"]=2,
+   ["realpage"]=1,
    ["section"]=0,
   },
   ["titledata"]={
@@ -185,7 +186,7 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=5,
-   ["realpage"]=2,
+   ["realpage"]=1,
    ["section"]=0,
   },
   ["titledata"]={
@@ -194,11 +195,54 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=7,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=6,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Land use classes",
+  },
+ },
+ {
+  ["metadata"]=7,
+  ["numberdata"]=9,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=7,
+   ["realpage"]=2,
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Landsat imagery",
+  },
+ },
+ {
+  ["metadata"]=10,
+  ["numberdata"]=12,
+  ["prefixdata"]=13,
+  ["references"]={
+   ["internal"]=8,
+   ["realpage"]=2,
+   ["reference"]="t1",
+   ["section"]=0,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Detail of satellital imagery",
+  },
+ },
+ {
   ["metadata"]=4,
   ["numberdata"]=6,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=6,
+   ["internal"]=9,
    ["realpage"]=2,
    ["section"]=0,
   },
@@ -208,11 +252,26 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=14,
+  ["numberdata"]=16,
+  ["prefixdata"]=13,
+  ["references"]={
+   ["internal"]=10,
+   ["realpage"]=2,
+   ["reference"]="t1",
+   ["section"]=0,
+   ["view"]="fit",
+  },
+  ["titledata"]={
+   ["title"]="Transition matrix for study period",
+  },
+ },
+ {
   ["metadata"]=4,
   ["numberdata"]=6,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=7,
+   ["internal"]=11,
    ["realpage"]=2,
    ["section"]=0,
   },
@@ -226,7 +285,7 @@ utilitydata.structures.lists.collected={
   ["numberdata"]=6,
   ["references"]={
    ["block"]="bodypart",
-   ["internal"]=8,
+   ["internal"]=12,
    ["realpage"]=2,
    ["section"]=0,
   },
@@ -244,15 +303,15 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=10,
-  ["prefixdata"]=11,
+  ["numberdata"]=17,
+  ["prefixdata"]=18,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=2,
-  ["numberdata"]=10,
-  ["prefixdata"]=11,
+  ["numberdata"]=17,
+  ["prefixdata"]=18,
   ["state"]="start",
  },
 }
@@ -371,6 +430,37 @@ utilitydata.job.packed={
    ["numbers"]=8,
    ["separatorset"]="default",
    ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=4,
+   ["name"]="table",
+  },
+  { 1 },
+  {
+   ["conversionset"]="number",
+   ["counter"]="table",
+   ["numbers"]=11,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="yes",
+   ["segments"]="2:2",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=3,
+   ["name"]="table",
+  },
+  { 2 },
+  {
+   ["conversionset"]="number",
+   ["counter"]="table",
+   ["numbers"]=15,
   },
   {
    ["conversionset"]="pagenumber",

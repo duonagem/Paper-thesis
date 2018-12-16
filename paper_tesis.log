@@ -1,6 +1,6 @@
 open source     > level 1, order 1, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
 system          > 
-system          > ConTeXt  ver: 2018.09.26 14:26 MKIV beta  fmt: 2018.9.29  int: english/english
+system          > ConTeXt  ver: 2018.12.01 13:20 MKIV beta  fmt: 2018.12.6  int: english/english
 system          > 
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv'
@@ -10,22 +10,32 @@ system          > files > jobname 'paper_tesis', input './paper_tesis', result '
 fonts           > latin modern fonts are not preloaded
 languages       > language 'en' is active
 system          > synctex functionality is enabled, expect 5-10 pct runtime overhead!
-open source     > level 2, order 3, name 'C:/Users/duonagem/Documents/GitHub/Paper-thesis/paper_tesis.tex'
-fonts           > preloading latin modern fonts (second stage)
-fonts           > 'fallback modern-designsize rm 12pt' is loaded
+open source     > level 2, order 3, name 'A:/Documents/GitHub/Paper-thesis/paper_tesis.tex'
+fonts           > beware: no fonts are loaded yet, using 'lm mono' in box
+open source     > level 3, order 4, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.mkiv'
+loading         > ConTeXt Page Macros / Runtime Macros
+resolvers       > lua > loading file 'C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.lua' succeeded
+close source    > level 3, order 4, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.mkiv'
+open source     > level 3, order 5, name 'C:/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+close source    > level 3, order 5, name 'C:/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
 structure       > sectioning > title @ level 2 : 0.0 -> Article
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Abstract
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Introduction
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Materials and methods
 structure       > sectioning > subsubject @ level 4 : 0.0.0.0 -> Study area
+structure       > sectioning > subsubject @ level 4 : 0.0.0.0 -> Land use classes
+structure       > sectioning > subsubject @ level 4 : 0.0.0.0 -> Landsat imagery
 backend         > xmp > using file 'C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
+floatblocks     > '1' placed (here)
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Results and discuss
+floatblocks     > '2' placed (here)
 structure       > sectioning > subject @ level 3 : 0.0.0 -> Conclusions
 structure       > sectioning > subject @ level 3 : 0.0.0 -> References
-close source    > level 2, order 3, name 'C:/Users/duonagem/Documents/GitHub/Paper-thesis/paper_tesis.tex'
+close source    > level 2, order 5, name 'A:/Documents/GitHub/Paper-thesis/paper_tesis.tex'
 pages           > flushing realpage 2, userpage 2, subpage 2
-close source    > level 1, order 3, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+close source    > level 1, order 5, name 'C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv'
+backend         > info > no date/time but fake id information will be added
 
 system          > start used files
 
@@ -38,26 +48,33 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=lua foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=scripts foundname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
-system          >    7: filename=C:\Users\duonagem\Documents\GitHub\Paper-thesis/paper_tesis.tex foundname=C:/Users/duonagem/Documents/GitHub/Paper-thesis/paper_tesis.tex fullname=C:/Users/duonagem/Documents/GitHub/Paper-thesis/paper_tesis.tex usedmethod=direct
-system          >    8: filename=lm.lfg filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
-system          >    9: filename=lmroman12-regular filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman12-regular.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman12-regular.otf usedmethod=database
-system          >   10: filename=latinmodern-math.otf filetype=opentypefonts foundname=C:/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
-system          >   11: filename=lmroman10-regular filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman10-regular.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm/lmroman10-regular.otf usedmethod=database
-system          >   12: filename=lpdf-pdx.xml filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=lua foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=lua foundname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=C:/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    7: filename=A:\Documents\GitHub\Paper-thesis/paper_tesis.tex foundname=A:/Documents/GitHub/Paper-thesis/paper_tesis.tex fullname=A:/Documents/GitHub/Paper-thesis/paper_tesis.tex usedmethod=direct
+system          >    8: filename=lmmono10-regular filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/lm/lmmono10-regular.otf fullname=C:/context/tex/texmf/fonts/opentype/public/lm/lmmono10-regular.otf usedmethod=database
+system          >    9: filename=page-run.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.mkiv fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.mkiv usedmethod=database
+system          >   10: filename=page-run.lua filetype=tex format=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.lua fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/page-run.lua usedmethod=database
+system          >   11: filename=type-imp-texgyre.mkiv filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+system          >   12: filename=lm.lfg filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >   13: filename=texgyretermes-regular filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf fullname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyretermes-regular.otf usedmethod=database
+system          >   14: filename=texgyretermes-math.otf filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf fullname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyretermes-math.otf usedmethod=database
+system          >   15: filename=termes-math.lfg filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/termes-math.lfg fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/termes-math.lfg usedmethod=database
+system          >   16: filename=schola-math.lfg filetype=tex foundname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/schola-math.lfg fullname=C:/context/tex/texmf-context/tex/context/fonts/mkiv/schola-math.lfg usedmethod=database
+system          >   17: filename=pdftex.map filetype=map format=map foundname=C:/context/tex/texmf/fonts/map/pdftex/plain/pdftex.map fullname=C:/context/tex/texmf/fonts/map/pdftex/plain/pdftex.map usedmethod=database
+system          >   18: filename=lpdf-pdx.xml filetype=tex foundname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=C:/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   19: filename=texgyretermes-bold filetype=otf format=otf foundname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf fullname=C:/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf usedmethod=database
 
 system          > stop used files
 
 
 system          > start commandline options
 
-system          > currentrun="2"
+system          > currentrun="1"
 system          > fulljobname="./paper_tesis.tex"
 system          > input="./paper_tesis.tex"
-system          > kindofrun="2"
+system          > kindofrun="1"
 system          > maxnofruns="9"
 system          > no-parse-first-line="true"
 system          > synctex="true"
@@ -80,25 +97,26 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: C:/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
-mkiv lua stats  > resource resolver: loadtime 0.014 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 12 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 441 modules (0.518 sec), 93 tables (0.033 sec), 534 chunks (0.551 sec)
-mkiv lua stats  > traced context: maxstack: 1351, freed: 0, unreachable: 1351
-mkiv lua stats  > cleaned up reserved nodes: 59 nodes, 9 lists of 440
-mkiv lua stats  > node memory usage: 2 glue, 2 kern, 3 penalty, 14 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 267 calls
-mkiv lua stats  > h-node processing time: 0.012 seconds including kernel
-mkiv lua stats  > synctex tracing: 2 referenced files, 4 files ignored, 48 objects flushed, logfile: paper_tesis.synctex
+mkiv lua stats  > resource resolver: loadtime 0.009 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 19 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 445 modules (0.422 sec), 93 tables (0.025 sec), 538 chunks (0.447 sec)
+mkiv lua stats  > traced context: maxstack: 1366, freed: 0, unreachable: 1366
+mkiv lua stats  > cleaned up reserved nodes: 62 nodes, 10 lists of 442
+mkiv lua stats  > node memory usage: 2 glue, 2 kern, 3 penalty, 14 attribute, 51 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 2235 calls
+mkiv lua stats  > h-node processing time: 0.027 seconds including kernel
+mkiv lua stats  > synctex tracing: 2 referenced files, 6 files ignored, 119 objects flushed, logfile: paper_tesis.synctex
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.004 seconds saving, 0.002 seconds loading
-mkiv lua stats  > callbacks: internal: 584, file: 175, direct: 2, late: 52, function 605, total: 1418 (1418 per page)
+mkiv lua stats  > jobdata time: 0.009 seconds saving, 0.002 seconds loading
+mkiv lua stats  > callbacks: internal: 3379, file: 781, direct: 3, late: 129, function 1186, total: 5478 (5478 per page)
 mkiv lua stats  > randomizer: resumed with value 0.30630493164063
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > result saved in file: paper_tesis.pdf, compresslevel 3, objectcompresslevel 3
-mkiv lua stats  > loaded fonts: 3 files: latinmodern-math.otf, lmroman10-regular.otf, lmroman12-regular.otf
-mkiv lua stats  > font engine: otf 3.104, afm 1.513, tfm 1.000, 9 instances, 6 shared in backend, 1 common vectors, 5 common hashes, load time 0.442 seconds 
+mkiv lua stats  > loaded fonts: 4 files: lmmono10-regular.otf, texgyretermes-math.otf, texgyretermes-bold.otf, texgyretermes-regular.otf
+mkiv lua stats  > font engine: otf 3.107, afm 1.513, tfm 1.000, 12 instances, 8 shared in backend, 1 common vectors, 7 common hashes, load time 0.342 seconds 
+mkiv lua stats  > page group warning: transparencies are used but no pagecolormodel is set
 mkiv lua stats  > used platform: win64, type: windows, binary subtree: texmf-win64
-mkiv lua stats  > used engine: luatex version 1.09 with functionality level 6930, banner: this is luatex, version 1.09.0 (tex live 2018/w32tex)
-mkiv lua stats  > control sequences: 45083 of 65536 + 100000
+mkiv lua stats  > used engine: luatex version 1.09 with functionality level 6998, banner: this is luatex, version 1.09.0 (tex live 2018/w32tex)
+mkiv lua stats  > control sequences: 46048 of 65536 + 100000
 mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 97 MB (ctx: 97 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 1.186 seconds, 2 processed pages, 2 shipped pages, 1.686 pages/second
+mkiv lua stats  > runtime: 1.169 seconds, 2 processed pages, 2 shipped pages, 1.711 pages/second
 
